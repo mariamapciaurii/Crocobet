@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Crocobet Task</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="crocobet-header">
+        <div class="crocobet-header__left">
+            <!-- Logo -->
+            <div class="crocobet-header__logo">
+                <a href="index.html">LOGO</a>
+            </div>
+        </div>
+
+        <div class="crocobet-header__right">
+            <!-- Navigation -->
+            <nav class="crocobet-header__navigation">
+                <ul class="crocobet-header__navigation__content">
+
+                    <li class="crocobet-header__navigation__item">
+                        <a class="active" href="index.html">Home</a>
+                    </li>
+                    <li class="crocobet-header__navigation__item">
+                        <a href="posts.html">Posts</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <template id="single-post">
+        <li class="post-item">
+            <h2></h2>
+            <p></p>
+            
+        </li>
+    </template>
+
+
+    <section id="available-posts">
+        <button id="fetch-btn">GET POSTS</button>
+        <ul class="posts"></ul>
+    </section>
+
+</body>
+<script src="./js/posts.js"></script>
+
+</html>
